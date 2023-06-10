@@ -1,0 +1,4 @@
+2022-04-01 03:49:12,464 - root - INFO - Namespace(aggregator='LSTM', backprop_every=1, bs=100, data='wikipedia', different_new_nodes=False, drop_out=0.1, embedding_module='graph_attention', gpu=0, lr=0.0003, memory_dim=172, memory_update_at_end=False, message_dim=100, message_function='identity', n_degree=10, n_epoch=10, n_head=2, n_layer=1, n_neg=1, n_runs=2, new_node=False, node_dim=100, patience=5, prefix='tgn-attn', randomize_features=False, time_dim=100, uniform=False, use_destination_embedding_in_message=False, use_memory=True, use_source_embedding_in_message=False, use_validation=False)
+2022-04-01 03:49:18,316 - root - DEBUG - Num of training instances: 133853
+2022-04-01 03:49:18,316 - root - DEBUG - Num of batches per epoch: 1339
+2022-04-01 03:49:18,316 - root - INFO - Loading saved TGN model

@@ -1,0 +1,24 @@
+2022-04-01 03:45:51,082 - root - INFO - Namespace(aggregator='GRU', backprop_every=1, bs=100, data='wikipedia', different_new_nodes=False, drop_out=0.1, embedding_module='graph_attention', gpu=0, lr=0.0003, memory_dim=172, memory_update_at_end=False, message_dim=100, message_function='identity', n_degree=10, n_epoch=10, n_head=2, n_layer=1, n_neg=1, n_runs=2, new_node=False, node_dim=100, patience=5, prefix='tgn-attn', randomize_features=False, time_dim=100, uniform=False, use_destination_embedding_in_message=False, use_memory=True, use_source_embedding_in_message=False, use_validation=False)
+2022-04-01 03:45:57,067 - root - DEBUG - Num of training instances: 133853
+2022-04-01 03:45:57,067 - root - DEBUG - Num of batches per epoch: 1339
+2022-04-01 03:45:57,067 - root - INFO - Loading saved TGN model
+2022-04-05 22:17:58,838 - root - INFO - Namespace(aggregator='GRU', backprop_every=1, bs=100, data='wikipedia', different_new_nodes=False, drop_out=0.1, embedding_module='graph_attention', gpu=0, lr=0.0003, memory_dim=172, memory_update_at_end=False, message_dim=100, message_function='identity', n_degree=10, n_epoch=10, n_head=2, n_layer=1, n_neg=1, n_runs=2, new_node=False, node_dim=100, patience=5, prefix='tgn-attn', randomize_features=False, time_dim=100, uniform=False, use_destination_embedding_in_message=False, use_memory=True, use_source_embedding_in_message=False, use_validation=False)
+2022-04-05 22:18:53,407 - root - DEBUG - Num of training instances: 133853
+2022-04-05 22:18:53,408 - root - DEBUG - Num of batches per epoch: 1339
+2022-04-05 22:18:53,408 - root - INFO - Loading saved TGN model
+2022-04-05 22:20:51,826 - root - INFO - TGN models loaded
+2022-04-05 22:20:51,827 - root - INFO - Start training node classification task
+2022-04-05 22:52:33,365 - root - INFO - Epoch 0: train loss: 0.04751138020598255, val auc: 0.8369901136315437, time: 1901.5167562961578
+2022-04-05 23:24:11,099 - root - INFO - Epoch 1: train loss: 0.011549489407650076, val auc: 0.8296312469394287, time: 1897.7333490848541
+2022-04-05 23:55:48,869 - root - INFO - Epoch 2: train loss: 0.01084230787521475, val auc: 0.8216284553127663, time: 1897.7684526443481
+2022-04-06 00:27:35,859 - root - INFO - Epoch 3: train loss: 0.010683947698763676, val auc: 0.8182430296089794, time: 1906.9897837638855
+2022-04-06 00:59:15,823 - root - INFO - Epoch 4: train loss: 0.010567777018160406, val auc: 0.8187606758512727, time: 1899.9629383087158
+2022-04-06 01:30:53,381 - root - INFO - Epoch 5: train loss: 0.010527248628761117, val auc: 0.8230368001172176, time: 1897.5579299926758
+2022-04-06 02:02:31,314 - root - INFO - Epoch 6: train loss: 0.010221751200888463, val auc: 0.8201487775065839, time: 1897.9321117401123
+2022-04-06 02:34:09,319 - root - INFO - Epoch 7: train loss: 0.01002543901771104, val auc: 0.8227389366370154, time: 1898.0045974254608
+2022-04-06 03:05:48,021 - root - INFO - Epoch 8: train loss: 0.010267719475560612, val auc: 0.8255941846252318, time: 1898.7008337974548
+2022-04-06 03:37:27,220 - root - INFO - Epoch 9: train loss: 0.009913881931509064, val auc: 0.82715676294694, time: 1899.198714017868
+2022-04-06 03:37:27,222 - root - INFO - test auc: 0.82715676294694
+2022-04-06 03:37:27,328 - root - DEBUG - Num of training instances: 133853
+2022-04-06 03:37:27,328 - root - DEBUG - Num of batches per epoch: 1339
+2022-04-06 03:37:27,329 - root - INFO - Loading saved TGN model
